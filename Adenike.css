@@ -1,0 +1,1051 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%), url(background.webp);
+    background-attachment: fixed;
+}
+
+.navbar{
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    opacity: 0.9;
+    background-color: white;
+    display: flex; 
+}
+.logo img{
+    width: 100px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.logo h1{
+    width: 200px;
+    font-size: 20px;
+    margin-left: 40px;
+    font-family: fantasy;
+    color: rgb(226, 185, 51);
+    letter-spacing: 1px;
+}
+.menu{
+    width: 300px;
+    height: 120px;
+    float: left;
+}
+.menu ul{
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-left: 450px;
+}
+.menu ul li{
+    margin-top: 50px;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    padding-top: 55px;
+    padding-bottom: 52px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-collapse: collapse;
+}
+.menu ul li a:hover{
+    background-color: rgb(226, 185, 51);
+}
+.shop{
+    margin-left: 620px;
+    margin-top: 40px;
+}
+.shop button{
+    background: rgb(226, 185, 51);
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+}
+.shop button a{
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.information{
+    margin-top: -250px;
+    float: right;
+    margin-right: 160px;
+    color: white;
+}
+.fashion{
+    margin-top: -330px;
+    float: right;
+    margin-right: 160px;
+    color: white;
+}
+.fashion h2{
+    font-family: 'Segoe UI';
+    font-size: 35px;
+    border-style: double;
+    border-right: none;
+    border-left: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    float: right;
+    font-weight: normal;
+}
+.information span{
+    float: right;
+    font-size: 80px;
+    font-weight: bold;
+    font-family:'Segoe UI';
+}
+.information p{
+    float: right;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+}
+.information h3{
+    float: right;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+}
+.shop1{
+    margin-right: 160px;
+    margin-top: -70px;
+    float: right;
+}
+.shop1 button{
+    background: rgb(226, 185, 51);
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+}
+.shop1 button a{
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.heading h1{
+    font-family: 'Segoe UI';
+    font-weight: normal;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pictures img{
+    width: 250px;
+    height: 300px;
+    margin-top: 50px;
+    padding: 40px;
+}
+.info{
+   text-align: center;
+   font-family:'Segoe UI';
+   font-weight: bold;
+   margin-top: -20px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-left: 113px;;
+    border-style: double; 
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+}
+.btn a{
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.price{
+    color: green;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial;
+}
+.more{
+    background-image: url(image1.avif);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.note{
+    font-family: Arial;
+    font-size: 30px;
+    padding-top: 150px;
+    padding-left: 120px;
+    font-weight: bold;
+    color: rgb(204, 53, 53);
+}
+.summer{
+    font-family: Arial;
+    font-size: 60px;
+    padding-top: 10px;
+    padding-left: 120px;
+    font-weight: bold;
+    color: rgb(204, 53, 53);
+}
+.show{
+    margin-left: 700px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.show a{
+    text-decoration: none;
+    color: black;
+}
+.footer-container{
+    background: black;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.footer-head{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.footer-head h3{
+    border-left: 5px solid red;
+    padding-left: 15px;
+}
+.footer1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer1 img{
+    width: 55px;
+    height: 55px;
+    float:left;
+    padding: 10px; 
+}
+.footer1 .address{
+    margin-top: 70px;
+    margin-left: -130px;
+}
+.footer1 .address-details{
+    margin-top: 100px;
+}
+.footer1 .phone{
+    margin-top: 140px;
+    margin-left: -322px;
+}
+.footer1 .phone-details{
+    margin-top: 170px;
+}
+.footer1 .email{
+    margin-top: 210px;
+    margin-left: -447px;
+}
+.footer1 .email-details{
+    margin-top: 240px;
+    transition: 0.3s ease-in-out;
+}
+.footer1 .email-details:hover{
+    color: rgb(207, 11, 11);
+}
+.footer1 .website{
+    margin-top: 280px;
+    margin-left: -684px;
+}
+.footer1 .website-details{
+    margin-top: 310px;
+    transition: 0.3s ease-in-out;
+}
+.footer1 .website-details:hover{
+    color: rgb(207, 11, 11);
+}
+.footer2-head{
+    margin-left: -200px;
+    margin-top: 20px;
+}
+.footer2-head h3{
+    border-left: 5px solid red;
+    padding-left: 15px;
+}
+.footer2{
+    margin-top: 70px;
+}
+.footer2 ul li{
+    padding: 5px;
+    margin-left: -60px;
+    list-style: circle;   
+}
+.footer2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    transition: 0.3s ease-in-out
+}
+.footer2 ul li a:hover{
+    color: rgb(207, 11, 11);
+}
+.footer3-head{
+    margin-left: -130px;
+    margin-top: 220px;
+}
+.footer3-head h3{
+    border-left: 5px solid red;
+    padding-left: 15px;
+}
+.footer3{
+    margin-top: 270px;
+}
+.footer3 ul li{
+    padding: 5px;
+    margin-left: -110px;
+    list-style: circle;   
+}
+.footer3 ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    transition: 0.3s ease-in-out
+}
+.footer3 ul li a:hover{
+    color: rgb(207, 11, 11);
+}
+.footer4-head{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.footer4-head h3{
+    border-left: 5px solid red;
+    padding-left: 15px;
+}
+.icons{
+    display: flex;
+    margin-left: -110px;
+}
+.icons a{
+    margin-top: 90px;    
+}
+.icons a ion-icon{
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+    transition: 0.3s ease-in-out;
+}
+.icons a ion-icon:hover{
+    color:rgb(207, 11, 11);
+}
+@media screen and (max-width: 1300px){
+    .menu ul{
+        margin-left: 300px;
+    }
+    .shop{
+        margin-left: 450px;
+    }
+    .pictures img{
+        width: 200px;
+        height: 250px;
+    }
+    .btn{
+        width: 90px;
+        height: 27px;
+        margin-left: 95px;
+    }
+}
+@media screen and (min-width: 1301px){
+    .pictures img{
+        width: 220px;
+        height: 300px;
+    }
+    .btn{
+        width: 90px;
+        height: 27px;
+        margin-left: 95px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .menu ul{
+        margin-left: 250px;
+    }
+    .menu ul li a{
+        padding-top: 55px;
+        padding-bottom: 52px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .shop{
+        margin-left: 400px;
+    }
+    .pictures img{
+        width: 190px;
+        height: 200px;
+    }
+    .btn{
+        width: 90px;
+        height: 27px;
+        margin-left: 95px;
+    }
+    .footer4-head{
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+    .icons a{
+        margin-top: 70px;    
+    }
+    .icons a ion-icon{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .navbar{
+        width: 100%;
+        height: 120px;
+    }
+    .menu ul{
+        margin-left: 150px;
+    }
+    .menu ul li a{
+        padding-top: 55px;
+        padding-bottom: 52px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .shop{
+        margin-left: 230px;
+    }
+    .fashion h2{
+        font-size: 30px;
+        
+    }
+    .information span{
+        font-size: 70px;
+    }
+    .information p{
+        font-size: 15px;
+    }
+    .information h3{
+        font-size: 15px;
+    }
+    .pictures img{
+        width: 150px;
+        height: 200px;
+    }
+    .btn{
+        width: 90px;
+        height: 25px;
+        margin-left: 70px;
+    }
+    .footer2-head{
+        margin-left: -290px;
+        margin-top: 20px;
+    }
+    .footer4-head{
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .icons a{
+        margin-top: 70px;    
+    }
+    .icons a ion-icon{
+        font-size: 22px;
+    }
+ 
+}
+@media screen and (max-width: 912px){
+    .menu ul{
+        margin-left: 80px;
+    }
+    .shop{
+        margin-left: 150px;
+    }
+    .pictures img{
+        width: 130px;
+        height: 180px;
+    }
+    .btn{
+        width: 75px;
+        height: 25px;
+        margin-left: 70px;
+    }
+    .show{
+        margin-left: 550px;
+        width: 190px;
+    }
+}
+@media screen and (max-width: 820px){
+    .navbar{
+        width: 100%;
+        height: 100px;
+    }
+    .logo img{
+        width: 80px;
+        height: 50px;
+    }
+    .logo h1{
+        width: 180px;
+        font-size: 15px;
+    }
+    .menu ul{
+        margin-left: 35px;
+    }
+    .menu ul li a{
+        font-size: 12.5px;
+        padding-top: 55px;
+        padding-bottom: 32px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .shop{
+        margin-left: 100px;
+    }
+    .pictures img{
+        width: 110px;
+        height: 150px;
+    }
+    .btn{
+        width: 65px;
+        height: 35px;
+        margin-left: 60px;
+    }
+    .btn a{
+        font-family: Arial;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
+    .price{
+        font-size: 20px;
+    }
+    .footer2{
+        margin-top: 60px;
+    }
+    .footer3{
+        margin-top: 250px;
+    }
+    .footer3-head{
+        margin-top: 210px;
+    }
+    .footer4-head{
+        margin-left: 487px;
+        margin-top: -20px;
+    }
+    .icons a{
+        margin-top: 18px;    
+    }
+}
+@media screen and (max-width: 770px){
+    .menu{
+        width: 250px;
+        height: 120px;
+        float: left;
+    }
+    .menu ul{
+        margin-left: 30px;
+    }
+    .shop{
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    .shop button{
+        width: 100px;
+        height: 40px;
+
+    }
+    .shop button a{
+        font-size: 14px;
+    }
+    .pictures img{
+        width: 90px;
+        height: 110px;
+    }
+    .btn{
+        width: 65px;
+        height: 35px;
+        margin-left: 50px;
+    }
+    .show{
+        margin-left: 520px;
+        width: 160px;
+    }
+    .show a{
+        font-size: 11px;
+    }
+    .footer-head h3{
+        font-size: 15px;
+    }
+    .footer1 img{
+        width: 45px;
+        height: 45px;
+        padding: 5px; 
+    }
+    .footer1 .address{
+        margin-top: 55px;
+        margin-left: -114px;
+    }
+    .footer1 .address-details{
+        margin-top: 75px;
+        font-size: 13px;
+    }
+    .footer1 .phone{
+        margin-top: 120px;
+        margin-left: -255px;
+    }
+    .footer1 .phone-details{
+        margin-top: 140px;
+        font-size: 13px;
+    }
+    .footer1 .email{
+        margin-top: 185px;
+        margin-left: -356px;
+    }
+    .footer1 .email-details{
+        margin-top: 203px;
+        font-size: 13px;
+    }
+    .footer1 .website{
+        margin-top: 250px;
+        margin-left: -549px;
+    }
+    .footer1 .website-details{
+        margin-top: 270px;
+        font-size: 13px;
+    }
+    .footer2-head{
+        margin-left: -270px;
+    }
+    .footer2-head h3{
+        font-size: 14px;
+    }
+    .footer2{
+        margin-top: 50px;
+        margin-left: 12px;
+    }
+    .footer2 ul li{
+        font-size: 13px;   
+    }
+    .footer3-head{
+        margin-left: -108px;
+        margin-top: 180px;
+    }
+    .footer3-head h3{
+        font-size: 14px;
+    }
+    .footer3{
+        margin-top: 210px;
+        margin-left: 24px;
+    }
+    .footer3 ul li{
+        font-size: 13px;  
+    }
+    .footer3 ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: Arial;
+        transition: 0.3s ease-in-out
+    }
+    .footer4-head{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .footer4-head h3{
+
+        font-size: 14px;
+    }
+    .icons{
+        margin-left: -95px;
+    }
+    .icons a{
+        margin-top: 50px;   
+    }
+    .icons a ion-icon{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 700px){
+    .main{
+        height: 500px;
+    }
+    .navbar{
+        width: 100%;
+        height: 80px;
+    }
+    .logo img{
+        width: 50px;
+        height: 33px;
+        margin-top: 12px;
+        margin-left: 27px;
+    }
+    .logo h1{
+        width: 150px;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .menu ul{
+        margin-left: -20px;
+        margin-top: -20px;
+    }
+    .menu ul li a{
+        font-size: 10px;
+        padding-top: 40px;
+        padding-bottom: 33px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .shop{
+        margin-left: -25px;
+        margin-top: 20px;
+    }
+    .shop button{
+        width: 90px;
+        height: 35px;
+    }
+    .shop button a{
+        font-size: 12px;
+    }
+    .fashion h2{
+        font-size: 25px;
+        margin-top: 20px;
+        margin-right: -100px;  
+    }
+    .information span{
+        font-size: 55px;
+        margin-right: -100px;
+    }
+    .information p{
+        font-size: 17px;
+        margin-top: 10px;
+        margin-right: -100px;
+        text-align: right;
+    }
+    .information h3{
+        font-size: 17px;
+        margin-top: 10px;
+        margin-right: -100px;
+        text-align: right;
+    }
+    .shop1{
+        margin-right: 160px;
+        margin-top: -70px;
+    }
+    .shop1 button{
+        width: 90px;
+        height: 35px;
+    }
+    .shop1 button a{
+        font-size: 12px;
+    }
+    .heading{
+        margin-top: 20px;
+    }
+    .pictures img{
+        width: 130px;
+        height: 180px;
+        margin-top: 10px;
+        padding: 20px;
+        margin-left: 40px;
+    }
+    .flow{
+        margin-top: -100px;
+    }
+    .info{
+        margin-left: 40px;
+        font-size: 13px;
+    }
+    .price{
+        margin-left: 40px;
+        font-size: 16px;
+        margin-top: 3px;
+    }
+    .btn{
+        width: 65px;
+        height: 35px;
+        margin-left: 93px;
+    }
+    .more{
+        background-image: url(image1.avif);
+        background-position: top;
+        background-attachment: fixed;
+    }
+    .note{
+        margin-left: -90px;
+        font-size: 25px;
+    }
+    .summer{
+        margin-left: -90px;
+        font-size: 50px;
+    }
+    .show{
+        margin-left: 300px;
+        width: 160px;
+    }
+    .show a{
+        font-size: 11px;
+        text-decoration: none;
+        color: black;
+    }
+    .footer-container{
+        background: black;
+        color: white;
+        font-family: Arial;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .footer-head{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .footer-head h3{
+        border-left: 5px solid red;
+        padding-left: 15px;
+        font-size: 18px;
+    }
+    .footer1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer1 img{
+        width: 45px;
+        height: 45px;
+        float:left;
+        padding: 5px; 
+    }
+    .footer1 .address{
+        margin-top: 55px;
+        margin-left: -130px;
+    }
+    .footer1 .address-details{
+        margin-top: 75px;
+        font-size: 14px;
+    }
+    .footer1 .phone{
+        margin-top: 120px;
+        margin-left: -271px;
+    }
+    .footer1 .phone-details{
+        margin-top: 140px;
+        font-size: 14px;
+    }
+    .footer1 .email{
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    .footer1 .email-details{
+        margin-top: 26px;
+        font-size: 14px;
+        transition: 0.3s ease-in-out;
+    }
+    .footer1 .email-details:hover{
+        color: rgb(207, 11, 11);
+    }
+    .footer1 .website{
+        margin-top: 75px;
+        margin-left: -263px;
+    }
+    .footer1 .website-details{
+        margin-top: 95px;
+        font-size: 14px;
+        transition: 0.3s ease-in-out;
+    }
+    .footer1 .website-details:hover{
+        color: rgb(207, 11, 11);
+    }
+    .footer2-head{
+        margin-left: -314px;
+        margin-top: 150px;
+    }
+    .footer2-head h3{
+        border-left: 5px solid red;
+        padding-left: 15px;
+        font-size: 18px;
+    }
+    .footer2{
+        margin-top: 180px;
+    }
+    .footer2 ul li{
+        padding: 5px;
+        margin-left: -60px;
+        list-style: circle; 
+        font-size: 14px;  
+    }
+    .footer2 ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: Arial;
+        transition: 0.3s ease-in-out
+    }
+    .footer2 ul li a:hover{
+        color: rgb(207, 11, 11);
+    }
+    .footer3-head{
+        margin-left: -126px;
+        margin-top: 300px;
+    }
+    .footer3-head h3{
+        border-left: 5px solid red;
+        padding-left: 15px;
+        font-size: 18px;
+    }
+    .footer3{
+        margin-top: 330px;
+        margin-left: 11px;
+    }
+    .footer3 ul li{
+        padding: 5px;
+        margin-left: -110px;
+        list-style: circle;  
+        font-size: 14px; 
+    }
+    .footer3 ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: Arial;
+        transition: 0.3s ease-in-out
+    }
+    .footer3 ul li a:hover{
+        color: rgb(207, 11, 11);
+    }
+    .footer4-head{
+        margin-left: -160px;
+        margin-top: 400px;
+        
+    }
+    .footer4-head h3{
+        border-left: 5px solid red;
+        padding-left: 15px;
+        font-size: 18px;
+    }
+    .icons{
+        display: flex;
+        margin-left: -100px;
+    }
+    .icons a{
+        margin-top: 430px;    
+    }
+    .icons a ion-icon{
+        padding: 5px;
+        color: white;
+        font-size: 18px;
+        transition: 0.3s ease-in-out;
+    }
+    .icons a ion-icon:hover{
+        color:rgb(207, 11, 11);
+    }
+    /* .footer-head h3{
+        font-size: 18px;
+    }
+    .footer1 img{
+        width: 45px;
+        height: 45px;
+        padding: 5px; 
+    }
+    .footer1 .address{
+        margin-top: 55px;
+        margin-left: -130px;
+    }
+    .footer1 .address-details{
+        margin-top: 75px;
+        font-size: 14px;
+    }
+    .footer1 .phone{
+        margin-top: 120px;
+        margin-left: -271px;
+    }
+    .footer1 .phone-details{
+        margin-top: 140px;
+        font-size: 14px;
+    }
+    .footer1 .email{
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    .footer1 .email-details{
+        margin-top: 26px;
+        font-size: 14px;
+    }
+    .footer1 .website{
+        margin-top: 75px;
+        margin-left: -263px;
+    }
+    .footer1 .website-details{
+        margin-top: 95px;
+        font-size: 14px;
+    }
+    .footer2-head{
+        margin-left: -314px;
+        margin-top: 150px;
+    }
+    .footer2-head h3{
+        font-size: 18px;
+    }
+    .footer2{
+        margin-top: 180px;
+    }
+    .footer2 ul li{
+        font-size: 14px;   
+    }
+    .footer3-head{
+        margin-left: -126px;
+        margin-top: 300px;
+    }
+    .footer3-head h3{
+        font-size: 18px;
+    }
+    .footer3{
+        margin-top: 330px;
+        margin-left: 11px;
+    }
+    .footer3 ul li{
+        font-size: 14px;  
+    }
+    .footer3 ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: Arial;
+        transition: 0.3s ease-in-out
+    }
+    .footer4-head{
+        margin-left: -150px;
+        margin-top: 400px;
+    }
+    .footer4-head h3{
+
+        font-size: 18px;
+    }
+    .icons{
+        margin-left: -100px;
+    }
+    .icons a{
+        margin-top: 430px;   
+    }
+    .icons a ion-icon{
+        font-size: 18px;
+    } */
+}
